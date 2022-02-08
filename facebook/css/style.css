@@ -100,7 +100,7 @@ form{
     height: 40px;
     padding-bottom: 7px;
     padding-left: 8px;
-    border-radius: 7px;
+    border-radius: 5px;
     text-decoration: none;
     border:1px solid rgba(0, 0, 0, 0.3);
     font-size: 0.9rem;
@@ -117,7 +117,7 @@ form{
     margin-top: 10px;
     padding-bottom: 7px;
     padding-left: 8px;
-    border-radius: 7px;
+    border-radius: 5px;
     text-decoration: none;
     border:1px solid rgba(0, 0, 0, 0.3);
     font-size: 0.9rem;
@@ -126,5 +126,93 @@ form{
 }
 
 #dob{
+    color:#92969D;
+    font-size: 0.8rem;
+    letter-spacing: -0.9px;
+    left: -138px;
+    top:10px;
+    display: flex;
+    position: relative;
+}
+
+.fa-question-circle{
+    margin-left: 4px;
+}
+
+.form-dob{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.form-dob>input{
+    position: relative;
+    width: 31%;
+    height: 36px;
+    padding-bottom: 7px;
+    padding-left: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    font-size: 0.9rem;
+    font-weight: bold;
+    outline: none;
+    margin-top: 6px;
+}
+
+#gender{
+    color:#92969D;
+    font-size: 0.8rem;
+    letter-spacing: -0.9px;
+    left: -153px;
+    top:10px;
+    display: flex;
+    position: relative;
+}
+
+.form-gender{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.form-gender>div{
+
+    display: flex;
+    width: 31%;
+    height: 36px;
+    border-radius: 5px;
+    text-decoration: none;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    font-size: 0.9rem;
+    font-weight: bold;
+    outline: none;
+    margin-top: 6px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+.form-gender>div>label{
+    color: #353b48;
+    font-weight: 580;
     
+    align-items: center;
+}
+.form-gender>div>input{
+      margin-top: -7px;
+ 
+}
+
+#ra-1{
+ margin-left: 26px;
+}
+#ra-2{
+    margin-left: 42px;
+}
+
+#ra-3{
+    margin-left: 23px;
 }
